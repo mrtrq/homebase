@@ -37,24 +37,33 @@ const HomePage = () => {
     setIsNavOpen(false);
   };
 
-  // Sample certification data - replace with your actual certifications
   const certifications = [
     {
-      title: "AWS Cloud Practitioner",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "AWS-123456", // Optional: Add if available
-      verificationUrl: "https://aws.amazon.com/verify/...", // Optional: Add if available
+      title: "Enterprise Data Science in Practice",
+      issuer: "IBM",
+      date: "2024",
+      credentialId: "ea5d2ab7-6003-420a-83b1-d46734471e28", // Optional: Add if available
+      verificationUrl: "https://www.credly.com/badges/ea5d2ab7-6003-420a-83b1-d46734471e28/public_url", // Optional: Add if available
       image: "/certificates/Data Driven Decision Making.webp", // Path to your image in public folder
       color: "bg-blue-50",
       skills: ["Cloud Computing", "AWS Services"] // Optional: Related skills
     },
     {
-      title: "Microsoft Azure Fundamentals",
-      issuer: "Microsoft",
-      date: "2023",
-      credentialId: "MS-789012",
-      verificationUrl: "https://learn.microsoft.com/verify/...",
+      title: "Associate Data Scientist",
+      issuer: "Datacamp",
+      date: "2024",
+      credentialId: "DSA0012369439354",
+      verificationUrl: "https://www.datacamp.com/certificate/DSA0012369439354",
+      image: "/certificates/azure-cert.png",
+      color: "bg-red-50",
+      skills: ["Cloud Computing", "Azure Services"]
+    },
+    {
+      title: "Data Driven Decision Making",
+      issuer: "PwC",
+      date: "2024",
+      credentialId: "DQSB3AH4L6U6",
+      verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/DQSB3AH4L6U6",
       image: "/certificates/azure-cert.png",
       color: "bg-red-50",
       skills: ["Cloud Computing", "Azure Services"]
@@ -212,14 +221,12 @@ const HomePage = () => {
       {/* About Section */}
       <section id="about" className="min-h-screen p-8 md:p-16 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-gray-800">Tarreq Maulana</h2>
+          {/* <h2 className="text-3xl font-bold mb-8 text-gray-800">Tarreq Maulana</h2> */}
           <div className="space-y-6 text-lg text-gray-700">
             <p>
             A final-year Computer Science student at Universitas Indonesia.
             Passionate about leveraging technology to solve real-world problems 💻⚙️            </p>
             <p>
-              Currently drives organizational growth at Fasilkom UI's Student Body Organization (BEM FASILKOM UI), managing a team of 162 people, driving
-              initiatives that matter to our community.
             </p>
           </div>
         </div>
