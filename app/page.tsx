@@ -1,31 +1,21 @@
 'use client'
 import CertificationsSection from './components/CertificationsSection';
-import ContactSection from './components/ContactSection';
+import ContactSection from './components/Footer';
 import AboutSection from './components/AboutSection';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ExperienceSection from './components/ExperienceSection';
+import Footer from './components/Footer';
 
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* Navigation Bar */}
       <Navbar />
-
-      {/* Hero Section */}
-      <HeroSection />
-
-      {/* About Section */}
+       <HeroSection />
       <AboutSection />
-
-      {/* Experience Section */}
       <ExperienceSection />
-
-      {/* Certifications Section */}
       <CertificationsSection />
-
-      {/* Contact Section */}
-      <ContactSection />
+      <Footer />
     </div>
   );
 };
