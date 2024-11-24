@@ -4,7 +4,7 @@ import Image from 'next/image'
 const AboutSection = () => {
   return(
   <section id="about" className="min-h-screen p-8 md:p-16 bg-white">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto space-y-1.2">
         <h2 className="text-3xl pb-5 font-bold text-gray-800">About Me</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -30,9 +30,8 @@ const AboutSection = () => {
               transition={{ duration: 0.6 }}
             >
               <h3 className="text-2xl font-semibold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-500">
-                Domain Expertise + Intrapersonal Skills
+                Pushing The Extra Miles
               </h3>
-              
               <div className="space-y-4">
                 <div className="space-y-4 leading-relaxed">
                   <p>
@@ -48,12 +47,20 @@ const AboutSection = () => {
                   </p>
 
                   <p>
-                    As someone passionate about{' '}
-                    <span className="italic">empowering initiatives</span> and{' '}
-                    <span className="italic">driving organizational growth</span>, 
-                    I combine:
+                    My{' '}
+                    <span className="font-semibold text-purple-600">domain expertise</span>{' '}
+                    equips me with the tools to address complexity & my{' '}
+                    <span className="font-semibold text-purple-600">intrapersonal skills</span>{' '}
+                    ensure solutions are thoughtful, dynamic, and relevant.
                   </p>
 
+                  <p className="font-medium">
+                    Together, these strengths help me to aim for{' '}
+                    <span className="bg-gradient-to-r from-blue-600 to-red-500 bg-clip-text text-transparent">
+                      meaningful change that lasts
+                    </span>
+                    .
+                  </p>
                   <div className="flex flex-wrap gap-2 my-2">
                   <span className="bg-gradient-to-r from-blue-50 to-red-50 px-3 py-1 rounded-full text-gray-700 text-sm font-medium">
                       resilience
@@ -62,25 +69,9 @@ const AboutSection = () => {
                       adaptability
                     </span>
                     <span className="bg-gradient-to-r from-blue-50 to-red-50 px-3 py-1 rounded-full text-gray-700 text-sm font-medium">
-                      self-awareness
+                      self-leadership
                     </span>
                   </div>
-
-                  <p>
-                    My{' '}
-                    <span className="font-medium text-cyan-600">domain expertise</span>{' '}
-                    equips me with the tools to address complexity, while my{' '}
-                    <span className="font-medium text-cyan-500">intrapersonal skills</span>{' '}
-                    ensure solutions are thoughtful, human-centric, and impactful.
-                  </p>
-
-                  <p className="font-medium">
-                    Together, these strengths fuel my mission to create{' '}
-                    <span className="bg-gradient-to-r from-blue-600 to-red-500 bg-clip-text text-transparent">
-                      meaningful change that lasts
-                    </span>
-                    .
-                  </p>
                 </div>
 
                 {/* Quick Facts */}
