@@ -20,6 +20,7 @@ const Navbar = () => {
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id.toLowerCase());
+    if (!element) return
     const navHeight = 80;
     const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
     window.scrollTo({
