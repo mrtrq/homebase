@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import '../public/favicon.ico'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,6 +17,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Tarreq Maulana",
   description: "Req's Homebase",
+  icons: 'favicon.ico'
 };
 
 export default function RootLayout({
