@@ -22,7 +22,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/tarreqmaulana"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white shadow-sm hover:shadow-md transition-all duration-300 text-gray-600 hover:text-blue-600"
@@ -31,7 +31,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/mrtrq"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white shadow-sm hover:shadow-md transition-all duration-300 text-gray-600 hover:text-gray-900"
