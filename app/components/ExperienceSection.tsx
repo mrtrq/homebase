@@ -1,13 +1,14 @@
 const ExperienceSection = () => {
     const experiences = [
         {
-            title: "Chairman - BEM Fasilkom UI",
+            title: "President - BEM Fasilkom UI",
             period: "2023 - Present",
             color: "blue",
             responsibilities: [
-              "Leading a 162-person organization",
-              "Developing and executing strategic initiatives",
-              "Fostering collaboration between different departments"
+              "Established #MeaningfulTransformation as the collective goal for all members as the north star",
+              "Simplified internal bureaucracy through internal process optimization in order to increase organizational agility",
+              "Fostered relations and conducted student exchange activities with UGM, UPH, and Universiti Malaya to broaden perspectives and enrich student organization experience",
+              "Launched Sekolah BEM Fasilkom for 160+ freshmen, offering a hands-on introduction to organizational life and industry exposure through company visits",
             ]
           },
           {
