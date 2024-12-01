@@ -5,20 +5,20 @@ const ExperienceSection = () => {
             period: "2023 - Present",
             color: "blue",
             responsibilities: [
-              "Established #MeaningfulTransformation as the collective goal for all members as the north star",
+              "Established #MeaningfulTransformation as the collective north star, encouraging and guiding all members toward a shared vision.",
               "Simplified internal bureaucracy through internal process optimization in order to increase organizational agility",
               "Fostered relations and conducted student exchange activities with UGM, UPH, and Universiti Malaya to broaden perspectives and enrich student organization experience",
-              "Launched Sekolah BEM Fasilkom for 160+ freshmen, offering a hands-on introduction to organizational life and industry exposure through company visits",
+              "Launched programs for more than 160+ beneficiaries, offering a hands-on experience to organizational life and self-development process through relevant activities",
             ]
           },
           {
             title: "NovoClub",
-            subtitle: "CSR Program Manager",
+            subtitle: "Head of Jabodetabek Region",
             color: "blue",
             responsibilities: [
-              "Successfully planned and executed community service programs",
-              "Coordinated with stakeholders to maximize impact",
-              "Managed program budget and resources effectively"
+              "Managed and organized 21,000+ NovoClub members to drive social and environmental initiatives through regional projects",
+              "Designed and implemented programs that empowered students to develop critical skills and make meaningful contributions to their communities",
+              "Cultivated a culture of growth, collaboration, and purpose for all members"
             ]
           }
       
